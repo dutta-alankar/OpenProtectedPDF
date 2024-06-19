@@ -9,7 +9,7 @@ where the first four letters are first four letters of your name along with your
 - This is ideal for guessing long passwords with brute force using supercomputers.
 
 Use Python (tested with version `3.10`) to run this
-- [Optional] Create virtual environment: `python -m venv .venv && source .venv/bin/activate`
+- [Optional] Create virtual environment: `python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt`
 - Run the code: `time mpiexec -n <num_procs> python guess_pdfPass-parallel.py`
 
 > Note: Dependency: qpdf (https://github.com/qpdf/qpdf), tested with version 11.9.1. Make sure `qpdf` and its libraries are added to `PATH` and `LD_LIBRARY_PATH` respectively.
